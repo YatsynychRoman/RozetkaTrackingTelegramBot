@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api')
 const axios = require('axios')
 
 const bot = new TelegramBot(process.env.BOT_TOKEN, { polling: true })
-const urls = ['266141891', '223596301', '270104251', '261758716', '279646908', '269114036']
+const urls = ['266141891', '223596301', '270104251', '261758716', '279646908', '269114036', '223588825']
 
 const chatId = process.env.CHAT_ID
 
